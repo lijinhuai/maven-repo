@@ -7,7 +7,7 @@ pom.xml:
 <repositories>
     <repository>
         <id>github-maven-repo</id>
-        <url>https://raw.githubusercontent.com/lijinhuai/maven-repo/master/repository</url>
+        <url>https://raw.githubusercontent.com/lijinhuai/maven-repo/master/</url>
     </repository>
 </repositories>
 ```
@@ -36,6 +36,7 @@ mvn deploy -DaltDeploymentRepository=github-mvn-repo::default::file:/Users/user/
 **推荐使用命令行来deploy，避免在项目里显式配置。**
 
 [https://maven.apache.org/plugins/maven-deploy-plugin/](https://maven.apache.org/plugins/maven-deploy-plugin/)
+
 [https://maven.apache.org/plugins/maven-deploy-plugin/](https://maven.apache.org/plugins/maven-deploy-plugin/)
 
 ## 把本地仓库提交到github上
